@@ -1,0 +1,372 @@
+{
+    "contractName": "Migrations",
+    "abi": [
+        {
+            "inputs": [],
+            "name": "getHelloMessage1",
+            "outputs": [
+                {
+                    "internalType": "string",
+                    "name": "",
+                    "type": "string"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "last_completed_migration",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "completed",
+                    "type": "uint256"
+                }
+            ],
+            "name": "setCompleted",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"getHelloMessage1\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"last_completed_migration\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"completed\",\"type\":\"uint256\"}],\"name\":\"setCompleted\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"c:/Users/Geckko/MyWorkSpace/contracts/Migrations.sol\":\"Migrations\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"c:/Users/Geckko/MyWorkSpace/contracts/Migrations.sol\":{\"keccak256\":\"0x47c6d22d4e5fbef811a79769a8fc9eb76c5dcd6c2eb99795d8a4a24578b2c909\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://8800293fff8ae6ffb6232445f2e705a7b3aa7cdb56a8c1f411a27c1c5214aea7\",\"dweb:/ipfs/QmdsZKzATCKgE1deAv6MMRg6tK9nS9iWL7o8xugXWA7hPB\"]}},\"version\":1}",
+    "bytecode": "60c06040526011608090815270090cad8d8de40aedee4d8c840c4d2e8c6d607b1b60a05260009061003090826100e2565b5034801561003d57600080fd5b506101a1565b634e487b7160e01b600052604160045260246000fd5b600181811c9082168061006d57607f821691505b60208210810361008d57634e487b7160e01b600052602260045260246000fd5b50919050565b601f8211156100dd57600081815260208120601f850160051c810160208610156100ba5750805b601f850160051c820191505b818110156100d9578281556001016100c6565b5050505b505050565b81516001600160401b038111156100fb576100fb610043565b61010f816101098454610059565b84610093565b602080601f831160018114610144576000841561012c5750858301515b600019600386901b1c1916600185901b1785556100d9565b600085815260208120601f198616915b8281101561017357888601518255948401946001909101908401610154565b50858210156101915787850151600019600388901b60f8161c191681555b5050505050600190811b01905550565b6101f5806101b06000396000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c8063445df0ac14610046578063fd24495114610062578063fdacd57614610077575b600080fd5b61004f60015481565b6040519081526020015b60405180910390f35b61006a61008c565b604051610059919061011e565b61008a61008536600461016c565b600155565b005b60606000805461009b90610185565b80601f01602080910402602001604051908101604052809291908181526020018280546100c790610185565b80156101145780601f106100e957610100808354040283529160200191610114565b820191906000526020600020905b8154815290600101906020018083116100f757829003601f168201915b5050505050905090565b600060208083528351808285015260005b8181101561014b5785810183015185820160400152820161012f565b506000604082860101526040601f19601f8301168501019250505092915050565b60006020828403121561017e57600080fd5b5035919050565b600181811c9082168061019957607f821691505b6020821081036101b957634e487b7160e01b600052602260045260246000fd5b5091905056fea264697066735822122083c6b25e4c19203f2896f92be8d88ba2db813e699c26b3827ee2afc55cb1a7af64736f6c63430008110033",
+    "deployedBytecode": "608060405234801561001057600080fd5b50600436106100415760003560e01c8063445df0ac14610046578063fd24495114610062578063fdacd57614610077575b600080fd5b61004f60015481565b6040519081526020015b60405180910390f35b61006a61008c565b604051610059919061011e565b61008a61008536600461016c565b600155565b005b60606000805461009b90610185565b80601f01602080910402602001604051908101604052809291908181526020018280546100c790610185565b80156101145780601f106100e957610100808354040283529160200191610114565b820191906000526020600020905b8154815290600101906020018083116100f757829003601f168201915b5050505050905090565b600060208083528351808285015260005b8181101561014b5785810183015185820160400152820161012f565b506000604082860101526040601f19601f8301168501019250505092915050565b60006020828403121561017e57600080fd5b5035919050565b600181811c9082168061019957607f821691505b6020821081036101b957634e487b7160e01b600052602260045260246000fd5b5091905056fea264697066735822122083c6b25e4c19203f2896f92be8d88ba2db813e699c26b3827ee2afc55cb1a7af64736f6c63430008110033",
+    "sourceMap": "89:49:0:-:0;62:370;89:49;;62:370;89:49;;;-1:-1:-1;;;89:49:0;;-1:-1:-1;;89:49:0;;-1:-1:-1;89:49:0;:::i;:::-;;62:370;;;;;;;;;;;;14:127:1;75:10;70:3;66:20;63:1;56:31;106:4;103:1;96:15;130:4;127:1;120:15;146:380;225:1;221:12;;;;268;;;289:61;;343:4;335:6;331:17;321:27;;289:61;396:2;388:6;385:14;365:18;362:38;359:161;;442:10;437:3;433:20;430:1;423:31;477:4;474:1;467:15;505:4;502:1;495:15;359:161;;146:380;;;:::o;657:545::-;759:2;754:3;751:11;748:448;;;795:1;820:5;816:2;809:17;865:4;861:2;851:19;935:2;923:10;919:19;916:1;912:27;906:4;902:38;971:4;959:10;956:20;953:47;;;-1:-1:-1;994:4:1;953:47;1049:2;1044:3;1040:12;1037:1;1033:20;1027:4;1023:31;1013:41;;1104:82;1122:2;1115:5;1112:13;1104:82;;;1167:17;;;1148:1;1137:13;1104:82;;;1108:3;;;748:448;657:545;;;:::o;1378:1352::-;1498:10;;-1:-1:-1;;;;;1520:30:1;;1517:56;;;1553:18;;:::i;:::-;1582:97;1672:6;1632:38;1664:4;1658:11;1632:38;:::i;:::-;1626:4;1582:97;:::i;:::-;1734:4;;1798:2;1787:14;;1815:1;1810:663;;;;2517:1;2534:6;2531:89;;;-1:-1:-1;2586:19:1;;;2580:26;2531:89;-1:-1:-1;;1335:1:1;1331:11;;;1327:24;1323:29;1313:40;1359:1;1355:11;;;1310:57;2633:81;;1780:944;;1810:663;604:1;597:14;;;641:4;628:18;;-1:-1:-1;;1846:20:1;;;1964:236;1978:7;1975:1;1972:14;1964:236;;;2067:19;;;2061:26;2046:42;;2159:27;;;;2127:1;2115:14;;;;1994:19;;1964:236;;;1968:3;2228:6;2219:7;2216:19;2213:201;;;2289:19;;;2283:26;-1:-1:-1;;2372:1:1;2368:14;;;2384:3;2364:24;2360:37;2356:42;2341:58;2326:74;;2213:201;-1:-1:-1;;;;;2460:1:1;2444:14;;;2440:22;2427:36;;-1:-1:-1;1378:1352:1:o;:::-;62:370:0;;;;;;",
+    "deployedSourceMap": "62:370:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;147:36;;;;;;;;;160:25:1;;;148:2;133:18;147:36:0;;;;;;;;192:101;;;:::i;:::-;;;;;;;:::i;335:94::-;;;;;;:::i;:::-;387:24;:36;335:94;;;192:101;241:13;273:12;266:19;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;192:101;:::o;196:548:1:-;308:4;337:2;366;355:9;348:21;398:6;392:13;441:6;436:2;425:9;421:18;414:34;466:1;476:140;490:6;487:1;484:13;476:140;;;585:14;;;581:23;;575:30;551:17;;;570:2;547:26;540:66;505:10;;476:140;;;480:3;665:1;660:2;651:6;640:9;636:22;632:31;625:42;735:2;728;724:7;719:2;711:6;707:15;703:29;692:9;688:45;684:54;676:62;;;;196:548;;;;:::o;749:180::-;808:6;861:2;849:9;840:7;836:23;832:32;829:52;;;877:1;874;867:12;829:52;-1:-1:-1;900:23:1;;749:180;-1:-1:-1;749:180:1:o;934:380::-;1013:1;1009:12;;;;1056;;;1077:61;;1131:4;1123:6;1119:17;1109:27;;1077:61;1184:2;1176:6;1173:14;1153:18;1150:38;1147:161;;1230:10;1225:3;1221:20;1218:1;1211:31;1265:4;1262:1;1255:15;1293:4;1290:1;1283:15;1147:161;;934:380;;;:::o",
+    "sourcePath": "c:/Users/Geckko/MyWorkSpace/contracts/Migrations.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.17+commit.8df45f5f"
+    },
+    "ast": {
+        "absolutePath": "c:/Users/Geckko/MyWorkSpace/contracts/Migrations.sol",
+        "exportedSymbols": {
+            "Migrations": [
+                25
+            ]
+        },
+        "id": 26,
+        "license": "MIT",
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 1,
+                "literals": [
+                    "solidity",
+                    "^",
+                    "0.8",
+                    ".0"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "33:23:0"
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "canonicalName": "Migrations",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 25,
+                "linearizedBaseContracts": [
+                    25
+                ],
+                "name": "Migrations",
+                "nameLocation": "71:10:0",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "constant": false,
+                        "id": 4,
+                        "mutability": "mutable",
+                        "name": "helloMessage",
+                        "nameLocation": "104:12:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 25,
+                        "src": "89:49:0",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_string_storage",
+                            "typeString": "string"
+                        },
+                        "typeName": {
+                            "id": 2,
+                            "name": "string",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "89:6:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_string_storage_ptr",
+                                "typeString": "string"
+                            }
+                        },
+                        "value": {
+                            "hexValue": "48656c6c6f20576f726c64206269746368",
+                            "id": 3,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "kind": "string",
+                            "lValueRequested": false,
+                            "nodeType": "Literal",
+                            "src": "119:19:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_stringliteral_760e4338fa67cfe7529eec8bc5280e32d597d0583b54adfc35348c15bd8cf199",
+                                "typeString": "literal_string \"Hello World bitch\""
+                            },
+                            "value": "Hello World bitch"
+                        },
+                        "visibility": "private"
+                    },
+                    {
+                        "constant": false,
+                        "functionSelector": "445df0ac",
+                        "id": 6,
+                        "mutability": "mutable",
+                        "name": "last_completed_migration",
+                        "nameLocation": "159:24:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 25,
+                        "src": "147:36:0",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                        },
+                        "typeName": {
+                            "id": 5,
+                            "name": "uint",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "147:4:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_uint256",
+                                "typeString": "uint256"
+                            }
+                        },
+                        "visibility": "public"
+                    },
+                    {
+                        "body": {
+                            "id": 13,
+                            "nodeType": "Block",
+                            "src": "255:38:0",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "id": 11,
+                                        "name": "helloMessage",
+                                        "nodeType": "Identifier",
+                                        "overloadedDeclarations": [],
+                                        "referencedDeclaration": 4,
+                                        "src": "273:12:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_string_storage",
+                                            "typeString": "string storage ref"
+                                        }
+                                    },
+                                    "functionReturnParameters": 10,
+                                    "id": 12,
+                                    "nodeType": "Return",
+                                    "src": "266:19:0"
+                                }
+                            ]
+                        },
+                        "functionSelector": "fd244951",
+                        "id": 14,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "getHelloMessage1",
+                        "nameLocation": "201:16:0",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 7,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "217:2:0"
+                        },
+                        "returnParameters": {
+                            "id": 10,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 9,
+                                    "mutability": "mutable",
+                                    "name": "",
+                                    "nameLocation": "-1:-1:-1",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 14,
+                                    "src": "241:13:0",
+                                    "stateVariable": false,
+                                    "storageLocation": "memory",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_string_memory_ptr",
+                                        "typeString": "string"
+                                    },
+                                    "typeName": {
+                                        "id": 8,
+                                        "name": "string",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "241:6:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_string_storage_ptr",
+                                            "typeString": "string"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "240:15:0"
+                        },
+                        "scope": 25,
+                        "src": "192:101:0",
+                        "stateMutability": "view",
+                        "virtual": false,
+                        "visibility": "public"
+                    },
+                    {
+                        "body": {
+                            "id": 23,
+                            "nodeType": "Block",
+                            "src": "380:49:0",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "id": 21,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "lValueRequested": false,
+                                        "leftHandSide": {
+                                            "id": 19,
+                                            "name": "last_completed_migration",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 6,
+                                            "src": "387:24:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_uint256",
+                                                "typeString": "uint256"
+                                            }
+                                        },
+                                        "nodeType": "Assignment",
+                                        "operator": "=",
+                                        "rightHandSide": {
+                                            "id": 20,
+                                            "name": "completed",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 16,
+                                            "src": "414:9:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_uint256",
+                                                "typeString": "uint256"
+                                            }
+                                        },
+                                        "src": "387:36:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_uint256",
+                                            "typeString": "uint256"
+                                        }
+                                    },
+                                    "id": 22,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "387:36:0"
+                                }
+                            ]
+                        },
+                        "functionSelector": "fdacd576",
+                        "id": 24,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "setCompleted",
+                        "nameLocation": "344:12:0",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 17,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 16,
+                                    "mutability": "mutable",
+                                    "name": "completed",
+                                    "nameLocation": "362:9:0",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 24,
+                                    "src": "357:14:0",
+                                    "stateVariable": false,
+                                    "storageLocation": "default",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_uint256",
+                                        "typeString": "uint256"
+                                    },
+                                    "typeName": {
+                                        "id": 15,
+                                        "name": "uint",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "357:4:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_uint256",
+                                            "typeString": "uint256"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "356:16:0"
+                        },
+                        "returnParameters": {
+                            "id": 18,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "380:0:0"
+                        },
+                        "scope": 25,
+                        "src": "335:94:0",
+                        "stateMutability": "nonpayable",
+                        "virtual": false,
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 26,
+                "src": "62:370:0",
+                "usedErrors": []
+            }
+        ],
+        "src": "33:399:0"
+    },
+    "functionHashes": {
+        "getHelloMessage1()": "fd244951",
+        "last_completed_migration()": "445df0ac",
+        "setCompleted(uint256)": "fdacd576"
+    },
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "100200",
+            "executionCost": "infinite",
+            "totalCost": "infinite"
+        },
+        "external": {
+            "getHelloMessage1()": "infinite",
+            "last_completed_migration()": "2262",
+            "setCompleted(uint256)": "22334"
+        }
+    }
+}
